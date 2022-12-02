@@ -1,0 +1,40 @@
+.blog-content{
+  display: grid;
+  position: relative;
+  padding-top: 14vh;
+  padding-bottom: 14vh;
+}
+
+.post-content{
+  display: flex;
+  padding: 0.5em;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-tags{
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  grid-column-gap: 20px;
+  padding: 0.5em;
+}
+
+.post-images{
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  text-align: center;
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 640px;
+  margin: auto;
+}
+
+.date,.article-category,.read-time{
+  display: inherit;
+  align-items: center;
+  grid-column-gap: 10px;
+  grid-template-columns: 20px 1fr;
+}

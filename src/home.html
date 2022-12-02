@@ -2,18 +2,28 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>My Everything Blog</title>
-    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Inter&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
+      <div class="nav">
+        <div class="left-nav box">
+          <button type="button" name="button" class="home-button">
+            <a href="home.html">Home</a>
+          </button>
+        </div>
+        <div class="mid-nav box"></div>
+        <div class="right-nav box"></div>
+      </div>
       <div class="about box">
         <div class="about-content box">
-          <a href="#" class="logo">
-            <img src="../images/hires.jpeg" alt="Picture of Blog Author" class="logo-photo">
+          <a href="#" class="author">
+            <img src="images/hires.jpeg" alt="Picture of Blog Author" class="author-photo">
           </a>
           <div class="author-bio box">
             <div class="author-name box">
@@ -21,6 +31,13 @@
             </div>
             <p class="author-info">I love my dog and will protect him at all costs</p>
           </div>
+          <figure>
+            <blockquote cite="https://www.huxley.net/bnw/four.html">
+              <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+            </blockquote>
+            <figcaption>—Aldous Huxley, <cite>Brave New World</cite>
+            </figcaption>
+          </figure>
         </div>
       </div>
       <div class="blog-posts box">
@@ -30,7 +47,7 @@
               <div class="month">Nov</div>
               <div class="day">24</div>
             </div>
-            <a href="blog.html" class="post-heading">
+            <a href="html/blog.html" class="post-heading">
               <h2>Blog Post 1</h2>
             </a>
           </div>
@@ -65,6 +82,16 @@
               </a>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="footer box">
+        <div class="site-name">
+          <h2>Vanilla Blog Website</h2>
+        </div>
+        <div class="footerinfo">
+          <h3>About this website</h3>
+          <h3>Thanks for visiting!</h3>
+          <p>Vanilla Blog is a project by <span>Roy Shaba</span>.</p>
         </div>
       </div>
     </div>

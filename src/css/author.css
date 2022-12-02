@@ -1,0 +1,47 @@
+.about-content{
+  position: sticky;
+  top: 25vh;
+  display: flex;
+  min-height: 50vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items:center;
+}
+
+.author{
+  background-color: #fff;
+  max-width: 100%;
+}
+
+.author-photo{
+  max-height: 150px;
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+
+
+.author-name{
+  margin-top: 4vh;
+  margin-bottom: 1vh;
+  font-size: 1.5em;
+  line-height: 100%;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.author-info{
+  max-width: 300px;
+  font-size: 1.1em;
+  line-height: 140%;
+}
+
+/* Small to Medium Screens */
+@media(min-width: 300px) and (max-width: 667px) {
+  .about-content{
+    min-height: 30vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+}
