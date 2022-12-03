@@ -38,3 +38,11 @@
   grid-column-gap: 10px;
   grid-template-columns: 20px 1fr;
 }
+
+/* Small to Medium Screens */
+@media(min-width: 300px) and (max-width: 667px){
+  .blog-content{
+    padding: 5vh;
+
+  }
+}

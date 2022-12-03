@@ -19,6 +19,12 @@
   border-radius: 50%;
 }
 
+.quote{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+}
 
 
 .author-name{

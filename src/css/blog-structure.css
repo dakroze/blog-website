@@ -49,7 +49,6 @@
 
  .about{
    grid-area: about;
-   padding: 5vh;
  }
 
  .blog-content{
@@ -67,13 +66,17 @@
                          "content content"
                          "footer footer";
     grid-row-gap: 5px;
-    font-family: 'Cormorant Garamond', serif;
+
   }
 
-  .box{
+  .about{
+    padding: 5vh;
+  }
+
+  /* .box{
    border: 1px solid green;
    background: #fff;
-   }
+   } */
 }
 
 @media(min-width: 668px) {
@@ -89,6 +92,10 @@
                          "about content"
                          "footer footer";
     font-family: 'Inter', sans-serif;
+  }
+
+  .about{
+    padding: 5vh;
   }
 
   .home-button{
