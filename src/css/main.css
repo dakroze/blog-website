@@ -3,10 +3,13 @@
 @import "content.css";
 
 .body{
-  width: 100%;
   background-color: #FBEEE6;
+  width: 100%;
 }
 
+img{
+  width: 100%;
+}
 
 *{
   box-sizing: border-box;
